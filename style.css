@@ -1,0 +1,92 @@
+img{
+  width: 10%;
+}
+
+header > div{
+  color: #53ff1a;
+  text-align: center;
+}
+
+header > h2{
+  margin: auto;
+}
+
+nav{
+  background-color: #00cc00;
+  width: 95%;
+  padding: 8px;
+  margin: auto;
+  text-align: center;
+}
+
+div > button{
+  font-size: 70%;
+  display: inline-block;
+  text-align: center;
+}
+
+body{
+  background-color: black;
+  background-image: url(background.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+section > span,div{
+  color: white;
+}
+
+*{
+  margin: 0;
+}
+
+input{
+  width: 8px;
+  margin-top: 15px;
+}
+
+div.gps:before{
+  content: "\21A6";
+}
+
+div.chargebar{
+  border-radius: 5px;
+}
+div#livellobatteria40{
+  height: 20px;
+  width: 200px;
+  background-color: orange;
+}
+
+div#livellobatteria80{
+  height: 20px;
+  width: 400px;
+  background-color: green;
+}
+
+div#livellobatteria20{
+  height: 20px;
+  width: 100px;
+  background-color: red;
+}
+
+span.name{
+  font-size: 120%;
+}
+
+section > span{
+  font-size: 12px;
+}
+
+body{
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.quadratosemitrasparente{
+  width: 50%;
+  padding: 5% 10%;
+  margin: 15% auto;
+
+  background-color: rgba(0,0,0,0.5);
+}
